@@ -1,3 +1,8 @@
+<p align="center">
+  <img src="Utils/idcare_logo.png" alt="IDCare Logo" width="150" style="margin-right: 40px;"/>
+  <img src="Utils/logo_UNIVR.png" alt="University of Verona Logo" width="150"/>
+</p>
+
 # Cefiderocol-Meta-analysis
 ## Project Overview
 This repository contains the code and supporting materials for a systematic review and meta-analysis evaluating the effectiveness of cefiderocol combination versus monotherapy in infections caused by multidrug-resistant and carbapenem-resistant Gram-negative bacteria. The meta-analysis focuses on outcomes such as mortality, clinical cure, and microbiological eradication. Analyses include forest plots, influence diagnostics, and contour-enhanced funnel plots.

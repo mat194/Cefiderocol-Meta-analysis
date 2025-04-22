@@ -56,11 +56,14 @@ Heterogeneity was assessed using the Chi-squared test and the I² statistic. A 9
 
 All analyses were conducted in R using the `meta`, `dmetar`, and `tidyverse` packages. Visualizations were automatically generated and saved as high-resolution `.png` files for each outcome.
 ## ▶️ How to Run the Analysis
-To reproduce the meta-analysis and generate all plots:
-```bash
-git clone https://github.com/your-username/Cefiderocol-Meta-analysis.git
-cd Cefiderocol-Meta-analysis
+To reproduce the meta-analysis and generate all plots go in **RStudio**, go to: **File** → **New Project** → **Version Control** → **Git**
+
+Paste your repo URL:
+```arduino
+https://github.com/your-username/Cefiderocol-Meta-analysis.git
 ```
+Choose where to save it locally and click Create Project
+RStudio will handle the clone, and open the repo in a new session.
 Open and run `Script.R` in R or RStudio. This script will:
 - Load the data
 - Perform the meta-analyses

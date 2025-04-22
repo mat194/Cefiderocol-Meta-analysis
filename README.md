@@ -60,7 +60,7 @@ To reproduce the meta-analysis and generate all plots go in **RStudio**, go to: 
 
 Paste your repo URL:
 ```arduino
-https://github.com/your-username/Cefiderocol-Meta-analysis.git
+[https://github.com/your-username/Cefiderocol-Meta-analysis.git](https://github.com/mat194/Cefiderocol-Meta-analysis.git)
 ```
 Choose where to save it locally and click Create Project
 RStudio will handle the clone, and open the repo in a new session.

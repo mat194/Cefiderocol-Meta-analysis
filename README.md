@@ -23,7 +23,8 @@ This repository contains the code and supporting materials for a systematic revi
 │   └── ...                          # Additional plots (influence, leave-one-out, funnel) for each outcome
 │
 ├── Utils                            # Utilities
-├── .gitignore  
+│   └── ... 
+├── .gitignore                       # Git ignore rules
 ├── README.md                        
 └── Script.R                         # Main R script for running the meta-analysis, generating plots, and performing diagnostics
 ```

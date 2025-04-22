@@ -55,4 +55,16 @@ Random-effects models were applied using the restricted maximum-likelihood (REML
 Heterogeneity was assessed using the Chi-squared test and the I² statistic. A 95% prediction interval was included to reflect the expected range of treatment effects in future studies. Publication bias was evaluated using contour-enhanced funnel plots, and Egger’s test was not performed due to the limited number of studies per outcome (n < 10), which limits statistical power. Influence diagnostics included Baujat plots and leave-one-out analysis to explore robustness and study-level effects on heterogeneity and pooled estimates.
 
 All analyses were conducted in R using the `meta`, `dmetar`, and `tidyverse` packages. Visualizations were automatically generated and saved as high-resolution `.png` files for each outcome.
+## ▶️ How to Run the Analysis
+To reproduce the meta-analysis and generate all plots:
+```bash
+git clone https://github.com/your-username/Cefiderocol-Meta-analysis.git
+cd Cefiderocol-Meta-analysis
+```
+Open and run Script.R in R or RStudio. This script will:
+- Load the data
+- Perform the meta-analyses
+- Generate forest plots, funnel plots, and influence diagnostics for each outcome 
+- Save all plots in the Plots/ folder
+Ensure that the `Data/` folder exist in your project root.
 ## 📣 Citation and dissemination

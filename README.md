@@ -18,7 +18,7 @@ This repository contains the code and supporting materials for a systematic revi
 │   ├── baujat_mortality.png         # Baujat plot for identifying influential studies for mortality
 │   └── ...                          # Additional plots (influence, leave-one-out, funnel) for each outcome
 │
-├── Utilis                           # Utilities
+├── Utils                            # Utilities
 ├── README.md                        
 └── Script.R                         # Main R script for running the meta-analysis, generating plots, and performing diagnostics
 ```

@@ -61,10 +61,11 @@ To reproduce the meta-analysis and generate all plots:
 git clone https://github.com/your-username/Cefiderocol-Meta-analysis.git
 cd Cefiderocol-Meta-analysis
 ```
-Open and run Script.R in R or RStudio. This script will:
+Open and run `Script.R` in R or RStudio. This script will:
 - Load the data
 - Perform the meta-analyses
 - Generate forest plots, funnel plots, and influence diagnostics for each outcome 
-- Save all plots in the Plots/ folder
+- Save all plots in the `Plots/` folder
+
 Ensure that the `Data/` folder exist in your project root.
 ## 📣 Citation and dissemination

@@ -24,7 +24,7 @@ pacman::p_load(tidyverse, meta, readxl, dmetar)
 # A final quality score is computed by summing the domain scores.
 # We then represent this score as a star rating using Unicode stars (★), generated via sapply()
 
-meta_df <- readxl::read_excel("Meta-analysis Cefiderocol_github.xlsx") %>%
+meta_df <- readxl::read_excel("Data/Meta-analysis Cefiderocol_github.xlsx") %>%
   mutate(
     Temporary_column_one = `Fav outcome combo`,
     Temporary_column_two = `Fav outcome mono`,
@@ -193,7 +193,7 @@ for (i in unique_endpoints) {
   col_contour <- c("gray75", "gray85", "gray95")
   meta::funnel(meta_result_list[[i]],
     contour = c(0.9, 0.95, 0.99),
-    col.contour = col.contour,
+    col.contour = col_contour,
     studlab = FALSE
   )
   # Add legend explaining contour regions

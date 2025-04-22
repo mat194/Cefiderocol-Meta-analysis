@@ -58,7 +58,7 @@ All analyses were conducted in R using the `meta`, `dmetar`, and `tidyverse` pac
 ## ▶️ How to Run the Analysis
 To reproduce the meta-analysis and generate all plots go in **RStudio**, go to: **File** → **New Project** → **Version Control** → **Git**
 
-Paste your repo URL:
+Paste this repo URL:
 ```arduino
 https://github.com/mat194/Cefiderocol-Meta-analysis.git
 ```

@@ -1,11 +1,11 @@
-<p align="center">
+<div align="right">
   <a href="https://www.id-care.net/" target="_blank">
-    <img src="Utils/idcare_logo.png" alt="IDCare Logo" width="150" style="margin-right: 40px;"/>
+    <img src="Utils/idcare_logo.png" alt="IDCare Logo" width="100" style="margin-right: 10px;"/>
   </a>
-  <a href="https://www.id-care.net/" target="_blank">
-    <img src="Utils/logo_UNIVR.png" alt="University of Verona Logo" width="150"/>
+  <a href="https://www.univr.it/" target="_blank">
+    <img src="Utils/logo_UNIVR.png" alt="University of Verona Logo" width="100"/>
   </a>
-</p>
+</div>
 
 # Cefiderocol-Meta-analysis
 ## Project Overview

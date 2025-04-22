@@ -8,9 +8,9 @@
 </div>
 
 # Cefiderocol-Meta-analysis
-## Project Overview
+## 🧾 Project Overview
 This repository contains the code and supporting materials for a systematic review and meta-analysis evaluating the effectiveness of cefiderocol combination versus monotherapy in infections caused by multidrug-resistant and carbapenem-resistant Gram-negative bacteria. The meta-analysis focuses on outcomes such as mortality, clinical cure, and microbiological eradication. Analyses include forest plots, influence diagnostics, and contour-enhanced funnel plots.
-## Structure
+## 🗂️ Structure
 
 ```bash
 .
@@ -28,7 +28,7 @@ This repository contains the code and supporting materials for a systematic revi
 ├── README.md                        
 └── Script.R                         # Main R script for running the meta-analysis, generating plots, and performing diagnostics
 ```
-## Data
+## 📂 Data
 The file `Meta-analysis Cefiderocol_github.xlsx` contains study-level data used for the meta-analysis. The following table explains the meaning of each column:
 
 | **Column Name**                   | **Description**                                                                 |
@@ -49,10 +49,10 @@ The file `Meta-analysis Cefiderocol_github.xlsx` contains study-level data used 
 | `aOR lower`                     | Lower bound of the 95% confidence interval for the adjusted OR.                |
 | `aOR upper`                     | Upper bound of the 95% confidence interval for the adjusted OR.                |
 | `Analysis mode`                 | Type of statistical analysis used (e.g., univariate, multivariate).            |
-## Methods
+## 📐 Methods
 Random-effects models were applied using the restricted maximum-likelihood (REML) estimator to pool odds ratios (ORs) for dichotomous outcomes (mortality, clinical cure, microbiological cure). When available, adjusted effect sizes (adjusted ORs with 95% confidence intervals) were pooled using the inverse variance method; otherwise, crude odds ratios were calculated and included in the analysis.
 
 Heterogeneity was assessed using the Chi-squared test and the I² statistic. A 95% prediction interval was included to reflect the expected range of treatment effects in future studies. Publication bias was evaluated using contour-enhanced funnel plots, and Egger’s test was not performed due to the limited number of studies per outcome (n < 10), which limits statistical power. Influence diagnostics included Baujat plots and leave-one-out analysis to explore robustness and study-level effects on heterogeneity and pooled estimates.
 
 All analyses were conducted in R using the `meta`, `dmetar`, and `tidyverse` packages. Visualizations were automatically generated and saved as high-resolution `.png` files for each outcome.
-## Citation and dissemination
+## 📣 Citation and dissemination

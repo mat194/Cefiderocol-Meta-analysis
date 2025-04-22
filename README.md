@@ -1,6 +1,10 @@
 <p align="center">
-  <img src="Utils/idcare_logo.png" alt="IDCare Logo" width="150" style="margin-right: 40px;"/>
-  <img src="Utils/logo_UNIVR.png" alt="University of Verona Logo" width="150"/>
+  <a href="https://www.id-care.net/" target="_blank">
+    <img src="Utils/idcare_logo.png" alt="IDCare Logo" width="150" style="margin-right: 40px;"/>
+  </a>
+  <a href="https://www.id-care.net/" target="_blank">
+    <img src="Utils/logo_UNIVR.png" alt="University of Verona Logo" width="150"/>
+  </a>
 </p>
 
 # Cefiderocol-Meta-analysis

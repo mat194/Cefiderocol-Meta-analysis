@@ -14,7 +14,7 @@ This repository contains the code and supporting materials for a systematic revi
 
 ```bash
 .
-├── Data                             # Folder containing raw and cleaned data used for the meta-analysis
+├── Data                             # Folder containing data used for the meta-analysis
 │   └── Meta-analysis Cefiderocol_github.xlsx 
 │
 ├── Plots                            # Output folder for generated plots from the meta-analysis

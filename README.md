@@ -64,7 +64,7 @@ https://github.com/mat194/Cefiderocol-Meta-analysis.git
 ```
 Choose where to save it locally and click **Create Project**.
 RStudio will handle the clone, and open the repo in a new session.
-Open and run `Script.R` and run it. This script will:
+Open and run `Script.R`. This script will:
 - Load the data
 - Perform the meta-analyses
 - Generate forest plots, funnel plots, and influence diagnostics for each outcome 

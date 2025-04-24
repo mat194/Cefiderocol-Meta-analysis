@@ -9,7 +9,7 @@
 
 # Cefiderocol-Meta-analysis
 ## 🧾 Project Overview
-This repository contains the code and supporting materials for a systematic review and meta-analysis evaluating the effectiveness of cefiderocol combination versus monotherapy in infections caused by multidrug-resistant and carbapenem-resistant Gram-negative bacteria. The meta-analysis focuses on outcomes such as mortality, clinical cure, and microbiological eradication. Analyses include forest plots, influence diagnostics, and contour-enhanced funnel plots.
+This repository contains the code and supporting materials for a meta-analysis evaluating the effectiveness of cefiderocol combination versus monotherapy in infections caused by multidrug-resistant and carbapenem-resistant Gram-negative bacteria. The meta-analysis focuses on outcomes such as mortality, clinical cure, and microbiological eradication. Analyses include forest plots, influence diagnostics, and contour-enhanced funnel plots.
 ## 🗂️ Structure
 
 ```bash

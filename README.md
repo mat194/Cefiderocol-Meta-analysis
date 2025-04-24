@@ -49,6 +49,10 @@ The file `Meta-analysis Cefiderocol_github.xlsx` contains study-level data used 
 | `aOR lower`                     | Lower bound of the 95% confidence interval for the adjusted OR.                |
 | `aOR upper`                     | Upper bound of the 95% confidence interval for the adjusted OR.                |
 | `Analysis mode`                 | Type of statistical analysis used (e.g., univariate, multivariate).            |
+| `D1`                 | NOS Domain 1: Evaluates how well study participants are selected and defined.           |
+| `D2`                 | NOS Domain 2: Assesses control of confounding variables.           |
+| `D3`                 | NOS Domain 3: Reviews outcome assessment and adequacy of follow-up.           |
+| `ROB-2`                 | Risk of Bias 2 Tool: Evaluates bias in randomized controlled trials.         |
 ## 📐 Methods
 Random-effects models were applied using the restricted maximum-likelihood (REML) estimator to pool odds ratios (ORs) for dichotomous outcomes (mortality, clinical cure, microbiological cure). When available, adjusted effect sizes (adjusted ORs with 95% confidence intervals) were pooled using the inverse variance method; otherwise, crude odds ratios were calculated and included in the analysis.
 

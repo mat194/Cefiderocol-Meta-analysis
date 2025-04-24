@@ -46,7 +46,7 @@ meta_df <- readxl::read_excel("Data/Meta-analysis Cefiderocol_github.xlsx") %>%
       paste(rep("\U0002606", x), collapse = " ")
     }),
     RoB = if_else(RoB == "", RoB3, paste(RoB, RoB3)),
-    RoB = if_else(!is.na(`ROBINS-2`), `ROBINS-2`, RoB) # for clinical trilas we use the RoB2 tool
+    RoB = if_else(!is.na(`ROB-2`), `ROB-2`, RoB) # for clinical trilas we use the RoB2 tool
   ) %>%
   dplyr::select(-c(RoB2, RoB3))
 

@@ -56,6 +56,8 @@ The file `Meta-analysis Cefiderocol_github.xlsx` contains study-level data used 
 ## 📐 Methods
 Random-effects models were applied using the restricted maximum-likelihood (REML) estimator to pool odds ratios (ORs) for dichotomous outcomes (mortality, clinical cure, microbiological cure). When available, adjusted effect sizes (adjusted ORs with 95% confidence intervals) were pooled using the inverse variance method; otherwise, crude odds ratios were calculated and included in the analysis.
 
+A subgroup analysis was performed based on the type of infection, distinguishing between CRAB infections only and mixed MDR infections. To assess whether treatment effects differed significantly between subgroups, a Q-test for subgroup differences was performed. With two subgroups, this test is based on one degree of freedom. A p-value < 0.05 was considered indicative of a significant difference in effect estimates.
+
 Heterogeneity was assessed using the Chi-squared test and the I² statistic. A 95% prediction interval was included to reflect the expected range of treatment effects in future studies. Publication bias was evaluated using contour-enhanced funnel plots, and Egger’s test was not performed due to the limited number of studies per outcome (n < 10), which limits statistical power. Influence diagnostics included Baujat plots and leave-one-out analysis to explore robustness and study-level effects on heterogeneity and pooled estimates.
 
 All analyses were conducted in R using the `meta`, `dmetar`, and `tidyverse` packages. Visualizations were automatically generated and saved as high-resolution `.png` files for each outcome.

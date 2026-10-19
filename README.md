@@ -78,9 +78,6 @@ Open and run `Script.R`. This script will:
 
 Ensure that the `Data/` folder exist in your project root.
 ## 📣 Citation and dissemination
-If you use this code, please cite:
-
-[Authors]. [Title]. *Journal of Global Antimicrobial Resistance*. 2026;[Volume]:[Pages]. 
-[doi:10.1016/j.jgar.2026.XX.XXX](https://doi.org/10.1016/j.jgar.2026.XX.XXX)
+If you use this code, please cite: (https://doi.org/10.1016/j.jgar.2026.XX.XXX)
 
 📄 [Read the article on ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2213716526001840)
